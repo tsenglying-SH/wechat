@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
  * @Version 1.0
  **/
 @RestController
-public class TestController {
+public class TChatMsgController {
     @RequestMapping("/hello")
     public String Test(){
         return "hello123";
