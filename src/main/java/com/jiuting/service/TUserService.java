@@ -13,4 +13,9 @@ public interface TUserService {
     // 用户注册
     TUser saveUser(TUser user);
 
+    // 搜索朋友的前置条件
+     Integer preconditionSearchFriends(String myUserId, String friendUsername);
+
+     TUser queryUserInfoByUsername(String username);
+
 }
