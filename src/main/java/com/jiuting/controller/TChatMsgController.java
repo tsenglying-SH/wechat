@@ -1,4 +1,4 @@
-package com.jiuting.mywechat.controller;
+package com.jiuting.controller;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
